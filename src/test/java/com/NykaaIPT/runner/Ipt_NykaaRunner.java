@@ -116,7 +116,9 @@ public static void removeItem() throws Throwable {
 	clickingWebElement(pom.getRemove_ItemPom().getDeletebtn());
 	Thread.sleep(3000);
 	clickingWebElement(pom.getRemove_ItemPom().getRemovebtn());
+	
 	System.out.println("Git Status Check");
+	
 }
 
 		public static void main(String[] args) throws Throwable	{
